@@ -31,7 +31,7 @@ import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 @LineMessageHandler
 public class EchoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EchoApplication.class, args);
+        SpringApplication.run(EchoApplication.class, args+"jimmy");
     }
 
     @EventMapping
