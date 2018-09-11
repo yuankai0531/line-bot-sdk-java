@@ -62,8 +62,7 @@ public class MessageEvent<T extends MessageContent> implements Event, ReplyEvent
             final Instant timestamp) {
         this.replyToken = replyToken;
         this.source = source;
-        this.message ="here?";
- //           message;
+        this.message =message;
         this.timestamp = timestamp;
     }
 }
